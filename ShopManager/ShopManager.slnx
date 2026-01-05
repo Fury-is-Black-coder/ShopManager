@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../ShopManager.Tests/ShopManager.Tests.csproj" Id="bd2cab18-3da2-4888-8b54-0abb94180446" />
+  <Project Path="ShopManager.csproj" />
+</Solution>

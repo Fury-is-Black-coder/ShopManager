@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>ShopManager – Products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>🛒 ShopManager</h1>
+
+    <section class="form">
+        <h2>Dodaj produkt</h2>
+        <input id="name" placeholder="Nazwa">
+        <input id="price" type="number" step="0.01" placeholder="Cena">
+        <input id="sku" placeholder="SKU">
+        <button onclick="addProduct()">Dodaj</button>
+    </section>
+
+    <section>
+        <h2>Produkty</h2>
+        <select onchange="loadProducts(this.value)">
+            <option value="">Wszystkie</option>
+            <option value="true">Aktywne</option>
+            <option value="false">Nieaktywne</option>
+        </select>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Nazwa</th>
+                    <th>Cena</th>
+                    <th>SKU</th>
+                    <th>Status</th>
+                    <th>Akcje</th>
+                </tr>
+            </thead>
+            <tbody id="products"></tbody>
+        </table>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>

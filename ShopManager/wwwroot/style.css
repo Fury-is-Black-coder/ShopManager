@@ -1,0 +1,74 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background: #f6f6f6;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+input, button, select {
+    padding: 8px;
+    margin: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+button {
+    cursor: pointer;
+}
+
+.inactive {
+    color: gray;
+}
+
+button {
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 13px;
+    cursor: pointer;
+    margin-right: 4px;
+}
+
+    button.save {
+        background: #4CAF50;
+        color: white;
+    }
+
+    button.toggle {
+        background: #2196F3;
+        color: white;
+    }
+
+    button.delete {
+        background: #f44336;
+        color: white;
+    }
+
+    button:disabled {
+        background: #ccc;
+        cursor: not-allowed;
+    }
+
+    button:hover {
+        opacity: 0.85;
+    }
+
